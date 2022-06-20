@@ -20,7 +20,7 @@ Environment Init() {
 	for (size_t i = 0; i < 7; i++) {
 		result->emplace_back(std::make_unique<Bush>());
 	}
-	for (size_t i = 0; i < 7; i++) {
+	for (size_t i = 0; i < 15; i++) {
 		result->emplace_back(std::make_unique<Grass>());
 	}
 
