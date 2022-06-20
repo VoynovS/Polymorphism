@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Bush">
-    <Position X="3.75" Y="3" Width="1.5" />
+    <Position X="3.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
       <FileName>Bush.hpp</FileName>
