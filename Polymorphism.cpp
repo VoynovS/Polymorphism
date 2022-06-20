@@ -6,6 +6,8 @@
 
 #include "Harvest.hpp"
 #include "Plant.hpp"
+#include "Conifers.hpp"
+#include "Tree_Fruits.hpp"
 #include "Tree.hpp"
 #include "Bush.hpp"
 #include "Grass.hpp"
@@ -15,7 +17,10 @@ using Environment = std::shared_ptr<std::vector<std::unique_ptr<Plant>>>;
 Environment Init() {
 	Environment result{std::make_shared<std::vector<std::unique_ptr<Plant>>>()};
 	for (size_t i = 0; i < 10; i++) {
-		result->emplace_back(std::make_unique<Tree>());
+		result->emplace_back(std::make_unique<Tree_Fruits>());
+	}
+	for (size_t i = 0; i < 19; i++) {
+		result->emplace_back(std::make_unique<Conifers>());
 	}
 	for (size_t i = 0; i < 7; i++) {
 		result->emplace_back(std::make_unique<Bush>());

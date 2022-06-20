@@ -127,19 +127,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Conifers.cpp" />
     <ClCompile Include="Harvest.cpp" />
     <ClCompile Include="Plant.cpp" />
     <ClCompile Include="Polymorphism.cpp" />
+    <ClCompile Include="Tree_Fruits.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Berry.hpp" />
     <ClInclude Include="Bush.hpp" />
+    <ClInclude Include="Conifers.hpp" />
     <ClInclude Include="Fruit.hpp" />
     <ClInclude Include="Grass.hpp" />
+    <ClInclude Include="Cones.hpp" />
     <ClInclude Include="Plant.hpp" />
     <ClInclude Include="Harvest.hpp" />
     <ClInclude Include="Seeds.hpp" />
     <ClInclude Include="Tree.hpp" />
+    <ClInclude Include="Tree_Fruits.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

@@ -2,14 +2,13 @@
 #define FRUIT_HPP
 
 #include "Harvest.hpp"
+#include "Tree_Fruits.hpp"
 
 
 class Fruit: public Harvest {
 public:
 	Fruit():Harvest("fruit"){ }
-	//const char *type() {
-	//	return Harvest::getName();
-	//}
+	
 private:
 	void setName(const char *name) {
 		Harvest::setName(name);

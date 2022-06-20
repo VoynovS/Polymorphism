@@ -1,44 +1,79 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Berry">
-    <Position X="12.5" Y="3" Width="1.5" />
+    <Position X="4.75" Y="7.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
       <FileName>Berry.hpp</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Bush">
-    <Position X="3.75" Y="3.5" Width="1.5" />
+    <Position X="9.75" Y="7.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
       <FileName>Bush.hpp</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Fruit">
-    <Position X="12.5" Y="1.25" Width="1.5" />
+    <Position X="7" Y="7.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
       <FileName>Fruit.hpp</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Plant">
-    <Position X="6.5" Y="1.25" Width="1.5" />
+    <Position X="11" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAQAAAAAAAAAAAACgAAAAAAACAEAABAAACEAgAQEAA=</HashCode>
       <FileName>Plant.hpp</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Harvest">
-    <Position X="9" Y="1.25" Width="1.5" />
+    <Position X="4" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAlAABAABIEAAAAAAA=</HashCode>
       <FileName>Harvest.hpp</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Tree">
-    <Position X="3.75" Y="1.25" Width="1.5" />
+  <Class Name="Seeds" Collapsed="true">
+    <Position X="1.25" Y="7.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Seeds.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Grass" Collapsed="true">
+    <Position X="11" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Grass.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Conifers" Collapsed="true">
+    <Position X="13.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Conifers.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tree_Fruits" Collapsed="true">
+    <Position X="11.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAE=</HashCode>
+      <FileName>Tree_Fruits.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cones" Collapsed="true">
+    <Position X="3" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Cones.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tree" Collapsed="true">
+    <Position X="12.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Tree.hpp</FileName>
     </TypeIdentifier>
   </Class>
